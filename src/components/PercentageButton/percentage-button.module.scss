@@ -1,4 +1,14 @@
-.button {
-    background-color: aqua;
-    color: cornflowerblue;
+.buttonDark {
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+}
+
+.buttonMedium {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.buttonLight {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
 }

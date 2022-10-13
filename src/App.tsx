@@ -5,7 +5,7 @@ import { PercentageButton } from './components/PercentageButton';
 function App() {
   return (
     <div className="App">
-      <PercentageButton />
+      <PercentageButton name='5%' color='light'/>
     </div>
   );
 }
