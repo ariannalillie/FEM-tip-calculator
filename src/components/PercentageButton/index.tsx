@@ -29,7 +29,8 @@ export const PercentageButton: FC<PercentageButtonProps> = ({
       className={clsx(
         { [styles.buttonDark]: color === "dark" },
         { [styles.buttonMedium]: color === "medium" },
-        { [styles.buttonLight]: color === "light" }
+        { [styles.buttonLight]: color === "light" },
+        "btn"
       )}
       id={color}
     >

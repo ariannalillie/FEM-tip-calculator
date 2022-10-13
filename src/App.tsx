@@ -1,11 +1,10 @@
-import React from 'react';
-import { PercentageButton } from './components/PercentageButton';
-
+import React from "react";
+import { LeftContainer } from "./components/LeftContainer";
 
 function App() {
   return (
     <div className="App">
-      <PercentageButton name='5%' color='light'/>
+      <LeftContainer />
     </div>
   );
 }
