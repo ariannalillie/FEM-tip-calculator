@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { PercentageButton } from "../PercentageButton";
 
-export const LeftContainer: FC = () => {
+export const LeftContainer: FC = (): JSX.Element => {
   const buttons = [
     { name: "5%", color: "dark" },
     { name: "10%", color: "dark" },
